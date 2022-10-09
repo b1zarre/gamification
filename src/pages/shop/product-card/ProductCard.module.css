@@ -1,0 +1,52 @@
+.card {
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    /* height: 208px; */
+    width: 180px;
+}
+.card span {
+    text-align: center;
+    line-height: 16px;
+}
+.buyBtn {
+    background-color: transparent;
+    border: 2px solid #0062FF;
+    color: #0062FF;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.plusSign:hover {
+    fill: white;
+}
+.plusSign {
+    margin-left: 12px;
+    height: 80%;
+    /* margin-right: 4px; */
+}
+.processing {
+    margin-top: auto;
+    display: flex;
+    gap: 12px;
+}
+.processingBtn {
+    border-radius: 6px !important;
+}
+.infoBtn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.infoBtn img {
+    height: 90%;
+}
